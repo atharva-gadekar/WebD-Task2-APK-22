@@ -1,0 +1,136 @@
+#box{
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-radius: 1.5em;
+    padding: 1em 3em;
+    background-color: rgba(245, 245, 245, 0.534);
+}
+
+body{
+    background-image: url("bgpic.jpg");
+    background-size: cover;
+}
+
+
+#name{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+        font-size: 3em;
+}
+
+#name h1{
+    margin: 0.25em;
+}
+
+#pfp{
+    margin: auto;
+    padding-left: 40%;
+}
+#pfp img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+#connect{
+    text-align: center;
+}
+
+#connect p{
+    font-size: 1.5em;
+    font-family: 'Lora', serif;
+    display: inline-block;
+    letter-spacing: 0.1em;
+}
+
+.Section{
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.Section h2{
+    font-family: 'Lora', serif;
+    font-size: 3em;
+    margin: 0px;
+    margin-top: 0.5em;
+}
+
+.Section p,table, ul{
+    display: inline-block;
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.Section p, ul{
+    line-height: 2em;
+}
+
+
+
+
+/* #last{
+    display: flex   ;
+    flex-direction: column;
+    background-color: red;
+    height: 4em;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+} */
+
+.forme{
+    margin: 2em;
+}
+
+table{
+    margin-top: 2em;
+    border-radius: 1em;
+    border: solid black;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+td,th{
+    text-align: center;
+    padding: 1em;
+    text-decoration: underline;
+}
+
+
+
+.star{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+#last{
+    font-size: 1.5em;
+    font-family: 'Lora', serif;
+}
+
+#names, #email, #message{
+    width: 30%;
+    height: 0.1em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    background-color: rgba(0, 255, 179, 0.144);
+    font-family: 'Lora', serif;
+    color: rgba(0, 0, 0, 0.623);
+    padding: 0.8em;
+}
+
+
+#rickroll{
+    font-size: 1em;
+    font-family: 'Lora', serif;
+    background-color: rgba(245, 245, 245, 0.534);
+    margin-top: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 10px 5px 5px rgba(255, 0, 0, 0.144);
+}
